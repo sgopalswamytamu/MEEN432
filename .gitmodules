@@ -1,3 +1,21 @@
 [submodule "Team 1"]
 	path = Team 1
 	url = https://github.com/IsaacDavidKelly/MEEN432Sp2024_IsaacDavidKelly.git
+[submodule "Team2"]
+	path = Team2
+	url = https://github.com/gage-pankey-tamu/MEEN432Sp2024_gage-pankey-tamu.git
+[submodule "Team3"]
+	path = Team3
+	url = https://github.com/bittertag/MEEN432Sp2024_lukebardin.git
+[submodule "Team5"]
+	path = Team5
+	url = https://github.com/avwilhite24/MEEN432Sp2024_avwilhite24.git
+[submodule "Team6"]
+	path = Team6
+	url = https://github.com/Xavi-Neerolickal/MEEN432Sp2024_XavierSijiPaul
+[submodule "Team7"]
+	path = Team7
+	url = https://github.com/arjunbth/MEEN432Sp2024_arjunbth.git
+[submodule "Team9"]
+	path = Team9
+	url = https://github.com/anaismendez1/MEEN432Sp2024_anaismendez1.git
