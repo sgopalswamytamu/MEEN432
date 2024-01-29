@@ -19,3 +19,42 @@
 [submodule "Team9"]
 	path = Team9
 	url = https://github.com/anaismendez1/MEEN432Sp2024_anaismendez1.git
+[submodule "Team10"]
+	path = Team10
+	url = https://github.com/mgarza7/MEEN432Sp2024_mgarza7.git
+[submodule "Team11"]
+	path = Team11
+	url = https://github.com/jnb1113/MEEN432Sp2024_jnb1113.git
+[submodule "Team14"]
+	path = Team14
+	url = https://github.com/parkanthony02/MEEN432Sp2024_parkanthony02.git
+[submodule "Team15"]
+	path = Team15
+	url = https://github.com/creagan24/MEEN432Sp2024_creagan24.git
+[submodule "Team16"]
+	path = Team16
+	url = https://github.com/BeyeA/MEEN432Sp2024_BeyeA.git
+[submodule "Team17"]
+	path = Team17
+	url = https://github.com/samanthabotello/MEEN432Sp2024_SamanthaBotello.git
+[submodule "Team18"]
+	path = Team18
+	url = https://github.com/martinorpilla/MEEN432Sp2024_martinorpilla.git
+[submodule "Team19"]
+	path = Team19
+	url = https://github.com/zackwalker817/MEEN432Sp2024_zackwalker817.git
+[submodule "Team20"]
+	path = Team20
+	url = https://github.com/lpoirot/MEEN432Sp2024_lpoirot.git
+[submodule "Team23"]
+	path = Team23
+	url = https://github.com/vincepascasio/MEEN432Sp2024_vincepascasio.git
+[submodule "Team24"]
+	path = Team24
+	url = https://github.com/mjhayes208/MEEN432Sp2024_mjhayes208.git
+[submodule "Team25"]
+	path = Team25
+	url = https://github.com/MDiaz001/MEEN432Sp2024_MDiaz001-Michael_Diaz.git
+[submodule "Team26"]
+	path = Team26
+	url = https://github.com/nathanlhyche/MEEN432Sp2024_nathanlhyche.git
