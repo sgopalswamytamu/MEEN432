@@ -1,5 +1,5 @@
 fig1 = figure;
-plot(tout,omega.Data)
+plot(tout,omega.Data,'-+')
 grid on
 xlabel('time (s)')
 ylabel('angular velocity (rad/s)')
