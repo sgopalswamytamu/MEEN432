@@ -58,3 +58,18 @@
 [submodule "Team26"]
 	path = Team26
 	url = https://github.com/nathanlhyche/MEEN432Sp2024_nathanlhyche.git
+[submodule "Team8"]
+	path = Team8
+	url = https://github.com/cbvawter/MEEN432Sp2024_cbvawter.git
+[submodule "Team22"]
+	path = Team22
+	url = https://github.com/nick-wright45/MEEN432Sp2024_NicholasWright.git
+[submodule "Team12"]
+	path = Team12
+	url = https://github.com/tamu-edu-students/MEEN432Sp2024_danielruiz3142.git
+[submodule "Team21"]
+	path = Team21
+	url = https://github.com/juliantan11/MEEN432Sp2024_juliantan11.git
+[submodule "Team27"]
+	path = Team27
+	url = https://github.com/jczaja02/MEEN432Sp2024_jczaja02.git
