@@ -8,7 +8,7 @@ hold on
 
 % start an animated line feature
 h = animatedline;
-axis([0 4*pi -1 1])
+axis([0 4*pi -1 1]) 
 
 % create a "car" of width w and height 2w
 w = 0.2;
