@@ -14,7 +14,7 @@ axis([0 4*pi -1 1])
 w = 0.2;
 car = [- w/2, - w; w/2, -w; w/2, w; -w/2, w]';
 a = patch('XData',car(:,1),'YData',car(:,2));
-a.EdgeColor = [0 0 0];
+a.EdgeColor = [0 0 0]; 
 a.FaceColor = 'none'
 
 % perform an animated "simulation" - no dynamics, just kinematics
