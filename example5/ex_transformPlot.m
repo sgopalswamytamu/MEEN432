@@ -18,7 +18,7 @@ a.EdgeColor = [0 0 0];
 a.FaceColor = 'none'
 
 % perform an animated "simulation" - no dynamics, just kinematics
-for x = linspace(0,4*pi,80000)
+for x = linspace(0,4*pi,40000)
     y = sin(x);
     addpoints(h,x,y)
 
@@ -26,8 +26,8 @@ for x = linspace(0,4*pi,80000)
     car = [x - w/2, y - w; x + w/2, y-w; x+w/2, y+w; x-w/2, y+w];
 
     % rotate car according to slope of curve 
-    %car2 = rotate(car'-[x;y], pi/2 - cos(x))' + [x;y]';
-    car2 = rotate(car'-[x;y], 0)' + [x;y]';
+    car2 = rotate(car'-[x;y], pi/2 - cos(x))' + [x;y]';
+    %car2 = rotate(car'-[x;y], 0)' + [x;y]';
 
     %update car image
     a.XData = car2(:,1);
