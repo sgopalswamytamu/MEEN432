@@ -4,7 +4,7 @@ xpath = linspace(0,4*pi,100);
 ypath = sin(xpath);
 plot(xpath,ypath,'.r');
 
-hold on
+hold on 
 
 % start an animated line feature
 h = animatedline;
