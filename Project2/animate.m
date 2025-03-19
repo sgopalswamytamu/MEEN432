@@ -1,7 +1,8 @@
 % This animates the patch vehicle going around the generated track
 
 %% From a Kinematic Model
-simout = sim("p2_demo_wk1.slx");
+%simout = sim("p2_demo_wk1.slx");
+simout = sim("p2_demo.slx");
 car_X = simout.X.Data;
 car_Y = simout.Y.Data;
 car_psi = simout.psi.Data;
