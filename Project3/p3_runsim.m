@@ -1,6 +1,6 @@
 simout = sim("p3_car.slx");
-sim_vel = out.ActualSpeed.Data;
-sim_time = out.tout;
+sim_vel = simout.veh_speed.Data;
+sim_time = simout.tout;
 
 figure;
 plot(sim_time, sim_vel*(1/mph2mps), 'b') % Remember, drive cycles are mph
