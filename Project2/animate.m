@@ -3,6 +3,7 @@
 %% From a Kinematic Model
 %simout = sim("p2_demo_wk1.slx");
 simout = sim("p2_demo.slx");
+simout = sim("p2_demo_1.slx");
 car_X = simout.X.Data;
 car_Y = simout.Y.Data;
 car_psi = simout.psi.Data;
@@ -39,7 +40,8 @@ for i = 1:length(car_X)
     addpoints(h,x,y) % this will add points as an animated line based on the center line path components
   
     car = [-L/2 -width/2; -L/2 width/2; L/2 width/2; L/2 -width/2]; % array of the vertices of the car
-    rcar = rotate(car', 0)'; 
+    rcar = rotate(car',psi)'; 
+%    rcar = car;
     a = polyshape(rcar + [x,y]);
     ap = plot(a); % plotting the shape of the car
     drawnow limitrate
